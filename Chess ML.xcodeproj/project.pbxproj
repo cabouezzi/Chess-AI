@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14ABAB1C268F7F5E0096F735 /* Chess_MLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB1B268F7F5E0096F735 /* Chess_MLApp.swift */; };
+		14ABAB1E268F7F5E0096F735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB1D268F7F5E0096F735 /* ContentView.swift */; };
+		14ABAB20268F7F630096F735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14ABAB1F268F7F630096F735 /* Assets.xcassets */; };
+		14ABAB23268F7F630096F735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14ABAB22268F7F630096F735 /* Preview Assets.xcassets */; };
+		14ABAB2F268F7F630096F735 /* Chess_MLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB2E268F7F630096F735 /* Chess_MLTests.swift */; };
+		14ABAB3A268F7F630096F735 /* Chess_MLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB39268F7F630096F735 /* Chess_MLUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14ABAB2B268F7F630096F735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ABAB10268F7F5E0096F735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14ABAB17268F7F5E0096F735;
+			remoteInfo = "Chess ML";
+		};
+		14ABAB36268F7F630096F735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14ABAB10268F7F5E0096F735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14ABAB17268F7F5E0096F735;
+			remoteInfo = "Chess ML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14ABAB18268F7F5E0096F735 /* Chess ML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chess ML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ABAB1B268F7F5E0096F735 /* Chess_MLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_MLApp.swift; sourceTree = "<group>"; };
+		14ABAB1D268F7F5E0096F735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14ABAB1F268F7F630096F735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14ABAB22268F7F630096F735 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14ABAB24268F7F630096F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14ABAB25268F7F630096F735 /* Chess_ML.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chess_ML.entitlements; sourceTree = "<group>"; };
+		14ABAB2A268F7F630096F735 /* Chess MLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess MLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ABAB2E268F7F630096F735 /* Chess_MLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_MLTests.swift; sourceTree = "<group>"; };
+		14ABAB30268F7F630096F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14ABAB35268F7F630096F735 /* Chess MLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess MLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ABAB39268F7F630096F735 /* Chess_MLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_MLUITests.swift; sourceTree = "<group>"; };
+		14ABAB3B268F7F630096F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14ABAB15268F7F5E0096F735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ABAB27268F7F630096F735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ABAB32268F7F630096F735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14ABAB0F268F7F5E0096F735 = {
+			isa = PBXGroup;
+			children = (
+				14ABAB1A268F7F5E0096F735 /* Chess ML */,
+				14ABAB2D268F7F630096F735 /* Chess MLTests */,
+				14ABAB38268F7F630096F735 /* Chess MLUITests */,
+				14ABAB19268F7F5E0096F735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14ABAB19268F7F5E0096F735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14ABAB18268F7F5E0096F735 /* Chess ML.app */,
+				14ABAB2A268F7F630096F735 /* Chess MLTests.xctest */,
+				14ABAB35268F7F630096F735 /* Chess MLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14ABAB1A268F7F5E0096F735 /* Chess ML */ = {
+			isa = PBXGroup;
+			children = (
+				14ABAB1B268F7F5E0096F735 /* Chess_MLApp.swift */,
+				14ABAB1D268F7F5E0096F735 /* ContentView.swift */,
+				14ABAB1F268F7F630096F735 /* Assets.xcassets */,
+				14ABAB24268F7F630096F735 /* Info.plist */,
+				14ABAB25268F7F630096F735 /* Chess_ML.entitlements */,
+				14ABAB21268F7F630096F735 /* Preview Content */,
+			);
+			path = "Chess ML";
+			sourceTree = "<group>";
+		};
+		14ABAB21268F7F630096F735 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14ABAB22268F7F630096F735 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14ABAB2D268F7F630096F735 /* Chess MLTests */ = {
+			isa = PBXGroup;
+			children = (
+				14ABAB2E268F7F630096F735 /* Chess_MLTests.swift */,
+				14ABAB30268F7F630096F735 /* Info.plist */,
+			);
+			path = "Chess MLTests";
+			sourceTree = "<group>";
+		};
+		14ABAB38268F7F630096F735 /* Chess MLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14ABAB39268F7F630096F735 /* Chess_MLUITests.swift */,
+				14ABAB3B268F7F630096F735 /* Info.plist */,
+			);
+			path = "Chess MLUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14ABAB17268F7F5E0096F735 /* Chess ML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14ABAB3E268F7F630096F735 /* Build configuration list for PBXNativeTarget "Chess ML" */;
+			buildPhases = (
+				14ABAB14268F7F5E0096F735 /* Sources */,
+				14ABAB15268F7F5E0096F735 /* Frameworks */,
+				14ABAB16268F7F5E0096F735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chess ML";
+			productName = "Chess ML";
+			productReference = 14ABAB18268F7F5E0096F735 /* Chess ML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14ABAB29268F7F630096F735 /* Chess MLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14ABAB41268F7F630096F735 /* Build configuration list for PBXNativeTarget "Chess MLTests" */;
+			buildPhases = (
+				14ABAB26268F7F630096F735 /* Sources */,
+				14ABAB27268F7F630096F735 /* Frameworks */,
+				14ABAB28268F7F630096F735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14ABAB2C268F7F630096F735 /* PBXTargetDependency */,
+			);
+			name = "Chess MLTests";
+			productName = "Chess MLTests";
+			productReference = 14ABAB2A268F7F630096F735 /* Chess MLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14ABAB34268F7F630096F735 /* Chess MLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14ABAB44268F7F630096F735 /* Build configuration list for PBXNativeTarget "Chess MLUITests" */;
+			buildPhases = (
+				14ABAB31268F7F630096F735 /* Sources */,
+				14ABAB32268F7F630096F735 /* Frameworks */,
+				14ABAB33268F7F630096F735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14ABAB37268F7F630096F735 /* PBXTargetDependency */,
+			);
+			name = "Chess MLUITests";
+			productName = "Chess MLUITests";
+			productReference = 14ABAB35268F7F630096F735 /* Chess MLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14ABAB10268F7F5E0096F735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					14ABAB17268F7F5E0096F735 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					14ABAB29268F7F630096F735 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 14ABAB17268F7F5E0096F735;
+					};
+					14ABAB34268F7F630096F735 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 14ABAB17268F7F5E0096F735;
+					};
+				};
+			};
+			buildConfigurationList = 14ABAB13268F7F5E0096F735 /* Build configuration list for PBXProject "Chess ML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14ABAB0F268F7F5E0096F735;
+			productRefGroup = 14ABAB19268F7F5E0096F735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14ABAB17268F7F5E0096F735 /* Chess ML */,
+				14ABAB29268F7F630096F735 /* Chess MLTests */,
+				14ABAB34268F7F630096F735 /* Chess MLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14ABAB16268F7F5E0096F735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ABAB23268F7F630096F735 /* Preview Assets.xcassets in Resources */,
+				14ABAB20268F7F630096F735 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ABAB28268F7F630096F735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ABAB33268F7F630096F735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14ABAB14268F7F5E0096F735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ABAB1E268F7F5E0096F735 /* ContentView.swift in Sources */,
+				14ABAB1C268F7F5E0096F735 /* Chess_MLApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ABAB26268F7F630096F735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ABAB2F268F7F630096F735 /* Chess_MLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14ABAB31268F7F630096F735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ABAB3A268F7F630096F735 /* Chess_MLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14ABAB2C268F7F630096F735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14ABAB17268F7F5E0096F735 /* Chess ML */;
+			targetProxy = 14ABAB2B268F7F630096F735 /* PBXContainerItemProxy */;
+		};
+		14ABAB37268F7F630096F735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14ABAB17268F7F5E0096F735 /* Chess ML */;
+			targetProxy = 14ABAB36268F7F630096F735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14ABAB3C268F7F630096F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14ABAB3D268F7F630096F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		14ABAB3F268F7F630096F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chess ML/Chess_ML.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess ML/Preview Content\"";
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Chess ML/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cezzi.Chess-ML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		14ABAB40268F7F630096F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chess ML/Chess_ML.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess ML/Preview Content\"";
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Chess ML/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cezzi.Chess-ML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		14ABAB42268F7F630096F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				INFOPLIST_FILE = "Chess MLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cezzi.Chess-MLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess ML.app/Contents/MacOS/Chess ML";
+			};
+			name = Debug;
+		};
+		14ABAB43268F7F630096F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				INFOPLIST_FILE = "Chess MLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cezzi.Chess-MLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess ML.app/Contents/MacOS/Chess ML";
+			};
+			name = Release;
+		};
+		14ABAB45268F7F630096F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				INFOPLIST_FILE = "Chess MLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezzi.Chess-MLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Chess ML";
+			};
+			name = Debug;
+		};
+		14ABAB46268F7F630096F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				INFOPLIST_FILE = "Chess MLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezzi.Chess-MLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Chess ML";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14ABAB13268F7F5E0096F735 /* Build configuration list for PBXProject "Chess ML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ABAB3C268F7F630096F735 /* Debug */,
+				14ABAB3D268F7F630096F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14ABAB3E268F7F630096F735 /* Build configuration list for PBXNativeTarget "Chess ML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ABAB3F268F7F630096F735 /* Debug */,
+				14ABAB40268F7F630096F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14ABAB41268F7F630096F735 /* Build configuration list for PBXNativeTarget "Chess MLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ABAB42268F7F630096F735 /* Debug */,
+				14ABAB43268F7F630096F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14ABAB44268F7F630096F735 /* Build configuration list for PBXNativeTarget "Chess MLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ABAB45268F7F630096F735 /* Debug */,
+				14ABAB46268F7F630096F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14ABAB10268F7F5E0096F735 /* Project object */;
+}

@@ -14,11 +14,13 @@ As few engines out there are written in Swift, the [Chess Programming Wiki](http
 
 ## Playing
 <sub>(Sorry for the UI not being complete. Didn't know I'd be sharing this.)</sub> <br /> <br />
+#### Players
 First, if you would like to modify game participants, go to /UI/SwiftUI/GameView and change players between ```.human ``` and ```.computer ``` as needed.
 ``` swift 
 let Manager = GameManager(white: .human, black: .computer)
 ```
 To flip the board, just click the flip button. To change the them of the board, open the right panel by clicking the button on the upper-right corner of the window. Available themes will appear. <br /> <br />
+#### Import / Export
 Currently, it is possible to export the game to [chess.com](chess.com) in Portable Game Notation (PGN) through the export button. Likewise, it is possible to import games, but the function is not attached to the UI. Under GameView, line 67, there is an import function. Add the following line, where ```<#PGNString#>``` is the imported PGN. After adding this line, the import button with work properly using the PGN inserted for ```<#PGNString#>```.
 ``` swift
 func `import`() {
@@ -35,6 +37,7 @@ becomes
 ``` swift
 Board.SetFromFEN(self, "rnbq1k1r/pp1Pbppp/2p5/8/2B5/8/PPP1NnPP/RNBQK2R w KQ - 1 8")
 ```
+#### Search Settings
 There are three settings in which the engine can search moves: ```.fixedDepth(<#depth#>)```, ```.timeConstrained(time: <#seconds#>)```, and ```.timeConstrainedDepth(depth: <#target_depth#>, time: <#seconds#>)```, where all inputs should be positive integers. To change this, go to /UI/SwiftUI/Player/ComputerPlayer. On line 24, change the ```mode``` content in ```ChhanielsChessEngine``` to the desired setting. For example, to change the engine's setting to search to a fixed depth, the line will look like
 ``` swift 
 self.engine = ChanielsChessEngine(testBoard, settings: .init(mode: .fixedDepth(5), usesTranspositionTable: true, usesOpeningBook: false))

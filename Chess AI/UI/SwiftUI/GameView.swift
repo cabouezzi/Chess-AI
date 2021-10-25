@@ -37,13 +37,13 @@ struct GameView: View {
                 SpinButton(image: Image(systemName: "arrow.2.circlepath"), title: "Flip", action: flip)
                     .buttonStyle(TabButtonStyle())
                 
-                ImageAndLabelButton(image: Image(systemName: "waveform.path.ecg"), title: "Perft \(value)", action: perft)
-                    .buttonStyle(TabButtonStyle())
-
-                ImageAndLabelButton(image: Image(systemName: "square.and.arrow.down"), title: "+", action: up)
-                    .buttonStyle(TabButtonStyle())
-
-                ImageAndLabelButton(image: Image(systemName: "square.and.arrow.down"), title: "–", action: down)
+//                 ImageAndLabelButton(image: Image(systemName: "waveform.path.ecg"), title: "Perft \(value)", action: perft)
+//                     .buttonStyle(TabButtonStyle())
+//
+//                 ImageAndLabelButton(image: Image(systemName: "square.and.arrow.down"), title: "+", action: up)
+//                     .buttonStyle(TabButtonStyle())
+//
+//                 ImageAndLabelButton(image: Image(systemName: "square.and.arrow.down"), title: "–", action: down)
                     .buttonStyle(TabButtonStyle())
                 
                 ImageAndLabelButton(image: Image(systemName: "arrowshape.turn.up.right.fill"), title: "Export", action: export)

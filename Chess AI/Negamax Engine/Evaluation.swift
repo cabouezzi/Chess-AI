@@ -47,9 +47,9 @@ class Evaluator {
     
     func Evaluation () -> Int {
         
-        return CompareMaterial()
+//         return CompareMaterial()
         
-        DetermineGamePhase()
+//         DetermineGamePhase()
         
         let material = CompareMaterial()
 //        let activity = DetermineActivity()

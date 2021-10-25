@@ -15,10 +15,10 @@ class Board {
     var state: BoardState = BoardState(isWhiteToMove: true, castlingRights: 0b1111, fiftyMoveRule: 0)
     
     init() {
-//        Board.SetFromFEN(self, "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 0")
+       Board.SetFromFEN(self, "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 0")
 //        Board.SetFromFEN(self, "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 0")
 //        Board.SetFromFEN(self, "rnbq1k1r/pp1Pbppp/2p5/8/2B5/8/PPP1NnPP/RNBQK2R w KQ - 1 8")
-        Board.SetFromFEN(self, "8/k7/3p4/p2P1p2/P2P1P2/8/8/K7 w - - ")
+//         Board.SetFromFEN(self, "8/k7/3p4/p2P1p2/P2P1P2/8/8/K7 w - - ")
 //        Board.SetFromFEN(self, "6kr/8/5K2/8/8/8/8/8 w - - 0 1")
         
         zobristKey = Zobrist.GetKeyForBoard(self)

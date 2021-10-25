@@ -38,7 +38,7 @@ becomes
 Board.SetFromFEN(self, "rnbq1k1r/pp1Pbppp/2p5/8/2B5/8/PPP1NnPP/RNBQK2R w KQ - 1 8")
 ```
 #### Search Settings
-There are three settings in which the engine can search moves: ```.fixedDepth(<#depth#>)```, ```.timeConstrained(time: <#seconds#>)```, and ```.timeConstrainedDepth(depth: <#target_depth#>, time: <#seconds#>)```, where all inputs should be positive integers. To change this, go to /UI/SwiftUI/Player/ComputerPlayer. On line 24, change the ```mode``` content in ```ChhanielsChessEngine``` to the desired setting. For example, to change the engine's setting to search within a time limit, the line will look like
+There are three settings in which the engine can search moves: ```.fixedDepth(<#depth#>)```, ```.timeConstrained(time: <#seconds#>)```, and ```.timeConstrainedDepth(depth: <#target_depth#>, time: <#seconds#>)```, where all inputs should be positive integers. To change this, go to /UI/SwiftUI/Player/ComputerPlayer. On line 24, change the ```mode``` content in ```ChhanielsChessEngine``` to the desired setting. For example, to change the engine's setting to search to a depth of 5, the line will look like
 ``` swift 
-self.engine = ChanielsChessEngine(testBoard, settings: .init(mode: .timeConstrained(time: 3), usesTranspositionTable: true, usesOpeningBook: false))
+self.engine = ChanielsChessEngine(testBoard, settings: .init(mode: .fixedDepth(5), usesTranspositionTable: true, usesOpeningBook: false))
 ```

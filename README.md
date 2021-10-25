@@ -1,7 +1,8 @@
 # Chess-AI
 The original goal was to create a chess AI using machine learning, but given my unfamiliarity in both machine learning and chess AI, it felt right to create one more traditional, just for practice. Implementing machine learning is still a goal I have in mind.
+<!-- ![alt text](http://url/to/img.png) -->
 ## Description
-A traditional chess engine built in bitboards. Features include
+A macOS application of a traditional chess engine built in bitboards. Features include
 - Negamax searching
 - Alpha-Beta pruning
 - Zobrist hashing
@@ -9,14 +10,15 @@ A traditional chess engine built in bitboards. Features include
 - A rough implementation of transposition tables (still contains bugs)
 - An opening book
 
-As few engines out there are written in Swift, the [Chess Programming Wiki](https://www.chessprogramming.org) was a significant resource to provide approaches in creating a chess AI. After discovering the site, the speed of searching jumped from 500k nodes per second (NPS) to 2,000k NPS (performance test, bulk counting disabled, evaluation not included). While this number could improve, my goal with the project (having fun!) was complete. 
+As few engines out there are written in Swift, the [Chess Programming Wiki](https://www.chessprogramming.org) was a significant resource to provide approaches in creating a chess AI. After discovering the site, the speed of searching jumped from 500k nodes per second (NPS) to 2,000k NPS (performance test, bulk counting disabled, evaluation not included). While this number could improve, for example with multi-threading, my goal with the project (having fun!) was complete. 
 
 ## Playing
-The UI here is complete to an extent. 
-To modify game participants, go to /UI/SwiftUI/GameView and change players between ```.human ``` and ```.computer ``` as needed.
+<sub>(Sorry for the UI not being complete. Didn't know I'd be sharing this.)</sub> <br /> <br />
+First, if you would like to modify game participants, go to /UI/SwiftUI/GameView and change players between ```.human ``` and ```.computer ``` as needed.
 ``` swift 
 let Manager = GameManager(white: .human, black: .computer)
 ```
+To flip the board, just click the flip button. To change the them of the board, open the right panel by clicking the button on the upper-right corner of the window. Available themes will appear. <br /> <br />
 Currently, it is possible to export the game to [chess.com](chess.com) in Portable Game Notation (PGN) through the export button. Likewise, it is possible to import games, but the function is not attached to the UI. Under GameView, line 67, there is an import function. Add the following line, where ```<#PGNString#>``` is the imported PGN. After adding this line, the import button with work properly using the PGN inserted for ```<#PGNString#>```.
 ``` swift
 func `import`() {

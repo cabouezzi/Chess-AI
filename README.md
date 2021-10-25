@@ -13,7 +13,7 @@ A macOS application of a traditional chess engine built in bitboards. Features i
 As few engines out there are written in Swift, the [Chess Programming Wiki](https://www.chessprogramming.org) was a significant resource to provide approaches in creating a chess AI. After discovering the site, the speed of searching jumped from 500k nodes per second (NPS) to 2,000k NPS (performance test, bulk counting disabled, evaluation not included). While this number could improve, for example with multi-threading, my goal with the project (having fun!) was complete. 
 
 ## Playing
-<sub>(Sorry for the UI not being complete. Didn't know I'd be sharing this.)</sub> <br /> <br />
+<sub>(Sorry for the UI not being complete. Didn't know I'd be sharing this.)</sub> <br />
 #### Players
 First, if you would like to modify game participants, go to /UI/SwiftUI/GameView and change players between ```.human ``` and ```.computer ``` as needed.
 ``` swift 

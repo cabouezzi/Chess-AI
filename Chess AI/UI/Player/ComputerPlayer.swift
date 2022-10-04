@@ -21,7 +21,7 @@ class ComputerPlayer: Player {
         self.manager = manager
         
         self.testBoard = Board()
-        self.engine = ChanielsChessEngine(testBoard, settings: .init(mode: .timeConstrained(time: 3), usesTranspositionTable: true, usesOpeningBook: false))
+        self.engine = ChanielsChessEngine(testBoard, settings: .init(mode: .fixedDepth(6), usesTranspositionTable: true, usesOpeningBook: false))
         
         testBoard.position = manager.board.position
         testBoard.state = manager.board.state

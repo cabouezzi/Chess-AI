@@ -20,10 +20,7 @@
 		148BDFDE269D051F00C8D704 /* BoardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFDD269D051F00C8D704 /* BoardScene.swift */; };
 		148BDFE0269E3B8000C8D704 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFDF269E3B8000C8D704 /* Searching.swift */; };
 		148BDFE226A0720C00C8D704 /* Zobrist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFE126A0720C00C8D704 /* Zobrist.swift */; };
-		148BDFE526A1EF7A00C8D704 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFE426A1EF7A00C8D704 /* Model.swift */; };
 		148BDFE726A1FA4F00C8D704 /* MoveOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFE626A1FA4F00C8D704 /* MoveOrdering.swift */; };
-		148BDFE926A1FE5D00C8D704 /* NeuralLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFE826A1FE5D00C8D704 /* NeuralLayer.swift */; };
-		148BDFEB26A2050700C8D704 /* NueralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFEA26A2050700C8D704 /* NueralNet.swift */; };
 		148BDFED26A28A7500C8D704 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFEC26A28A7500C8D704 /* Piece.swift */; };
 		148BDFEF26A3701A00C8D704 /* BoardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFEE26A3701A00C8D704 /* BoardState.swift */; };
 		148BDFF126A3A5D000C8D704 /* Bitscanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFF026A3A5D000C8D704 /* Bitscanning.swift */; };
@@ -43,8 +40,6 @@
 		14ABAB1E268F7F5E0096F735 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB1D268F7F5E0096F735 /* GameView.swift */; };
 		14ABAB20268F7F630096F735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14ABAB1F268F7F630096F735 /* Assets.xcassets */; };
 		14ABAB23268F7F630096F735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14ABAB22268F7F630096F735 /* Preview Assets.xcassets */; };
-		14ABAB2F268F7F630096F735 /* Chess_MLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB2E268F7F630096F735 /* Chess_MLTests.swift */; };
-		14ABAB3A268F7F630096F735 /* Chess_MLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB39268F7F630096F735 /* Chess_MLUITests.swift */; };
 		14ABAB7D2698F2060096F735 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB7C2698F2060096F735 /* Player.swift */; };
 		14ABAB7F26991DE60096F735 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB7E26991DE50096F735 /* GameManager.swift */; };
 		14ABAB97269A28D10096F735 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB96269A28D10096F735 /* Board.swift */; };
@@ -88,10 +83,7 @@
 		148BDFDD269D051F00C8D704 /* BoardScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardScene.swift; sourceTree = "<group>"; };
 		148BDFDF269E3B8000C8D704 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		148BDFE126A0720C00C8D704 /* Zobrist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zobrist.swift; sourceTree = "<group>"; };
-		148BDFE426A1EF7A00C8D704 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		148BDFE626A1FA4F00C8D704 /* MoveOrdering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveOrdering.swift; sourceTree = "<group>"; };
-		148BDFE826A1FE5D00C8D704 /* NeuralLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralLayer.swift; sourceTree = "<group>"; };
-		148BDFEA26A2050700C8D704 /* NueralNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NueralNet.swift; sourceTree = "<group>"; };
 		148BDFEC26A28A7500C8D704 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		148BDFEE26A3701A00C8D704 /* BoardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardState.swift; sourceTree = "<group>"; };
 		148BDFF026A3A5D000C8D704 /* Bitscanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitscanning.swift; sourceTree = "<group>"; };
@@ -115,11 +107,7 @@
 		14ABAB24268F7F630096F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14ABAB25268F7F630096F735 /* Chess_AI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chess_AI.entitlements; sourceTree = "<group>"; };
 		14ABAB2A268F7F630096F735 /* Chess AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14ABAB2E268F7F630096F735 /* Chess_MLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_MLTests.swift; sourceTree = "<group>"; };
-		14ABAB30268F7F630096F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14ABAB35268F7F630096F735 /* Chess AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14ABAB39268F7F630096F735 /* Chess_MLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_MLUITests.swift; sourceTree = "<group>"; };
-		14ABAB3B268F7F630096F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14ABAB7C2698F2060096F735 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		14ABAB7E26991DE50096F735 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		14ABAB96269A28D10096F735 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
@@ -157,16 +145,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		148BDFE326A1EF6A00C8D704 /* ML Engine */ = {
-			isa = PBXGroup;
-			children = (
-				148BDFEA26A2050700C8D704 /* NueralNet.swift */,
-				148BDFE826A1FE5D00C8D704 /* NeuralLayer.swift */,
-				148BDFE426A1EF7A00C8D704 /* Model.swift */,
-			);
-			path = "ML Engine";
-			sourceTree = "<group>";
-		};
 		1493965626BE186C00F70883 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,8 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				14ABAB1A268F7F5E0096F735 /* Chess AI */,
-				14ABAB2D268F7F630096F735 /* Chess AITests */,
-				14ABAB38268F7F630096F735 /* Chess AIUITests */,
 				14ABAB19268F7F5E0096F735 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -209,7 +185,6 @@
 				1493965426BDEE6E00F70883 /* PGNReader.swift */,
 				14ABAB7626952E6E0096F735 /* UI */,
 				14ABAB98269A2F710096F735 /* Negamax Engine */,
-				148BDFE326A1EF6A00C8D704 /* ML Engine */,
 				14ABAB1F268F7F630096F735 /* Assets.xcassets */,
 				14ABAB24268F7F630096F735 /* Info.plist */,
 				14ABAB25268F7F630096F735 /* Chess_AI.entitlements */,
@@ -224,24 +199,6 @@
 				14ABAB22268F7F630096F735 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		14ABAB2D268F7F630096F735 /* Chess AITests */ = {
-			isa = PBXGroup;
-			children = (
-				14ABAB2E268F7F630096F735 /* Chess_MLTests.swift */,
-				14ABAB30268F7F630096F735 /* Info.plist */,
-			);
-			path = "Chess AITests";
-			sourceTree = "<group>";
-		};
-		14ABAB38268F7F630096F735 /* Chess AIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				14ABAB39268F7F630096F735 /* Chess_MLUITests.swift */,
-				14ABAB3B268F7F630096F735 /* Info.plist */,
-			);
-			path = "Chess AIUITests";
 			sourceTree = "<group>";
 		};
 		14ABAB7626952E6E0096F735 /* UI */ = {
@@ -437,7 +394,6 @@
 				148BDFE726A1FA4F00C8D704 /* MoveOrdering.swift in Sources */,
 				1493965526BDEE6F00F70883 /* PGNReader.swift in Sources */,
 				14ABABA0269A6F360096F735 /* Support.swift in Sources */,
-				148BDFEB26A2050700C8D704 /* NueralNet.swift in Sources */,
 				14ABAB7D2698F2060096F735 /* Player.swift in Sources */,
 				14ABAB7F26991DE60096F735 /* GameManager.swift in Sources */,
 				148BDFDC269CF47300C8D704 /* TranspositionTable.swift in Sources */,
@@ -445,12 +401,10 @@
 				1431AB1226D5FFCE0073456F /* Perft.swift in Sources */,
 				14ABAB97269A28D10096F735 /* Board.swift in Sources */,
 				148BDFD6269A7F2B00C8D704 /* FEN.swift in Sources */,
-				148BDFE926A1FE5D00C8D704 /* NeuralLayer.swift in Sources */,
 				14ABAB9E269A6E880096F735 /* MoveGenerator.swift in Sources */,
 				142B68CE26D6A0DD00A465F7 /* SearchSettings.swift in Sources */,
 				1431AB0E26CEF1A70073456F /* RedesignedGenerator.swift in Sources */,
 				14CF7C3126B7050100C52A82 /* SpinButton.swift in Sources */,
-				148BDFE526A1EF7A00C8D704 /* Model.swift in Sources */,
 				1493966226BE5ACD00F70883 /* FullView.swift in Sources */,
 				148BDFF126A3A5D000C8D704 /* Bitscanning.swift in Sources */,
 				142FE7A326B1C03A005B0533 /* BoardView.swift in Sources */,
@@ -479,7 +433,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14ABAB2F268F7F630096F735 /* Chess_MLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14ABAB3A268F7F630096F735 /* Chess_MLUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

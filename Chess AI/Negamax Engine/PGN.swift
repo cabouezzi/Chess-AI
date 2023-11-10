@@ -10,7 +10,7 @@ import Foundation
 extension Board {
     
     // Information on move notation: https://en.wikipedia.org/wiki/Algebraic_notation_(chess)
-    static func BoardFromPGN (pgn importedPGN: String) -> Board {
+    static func BoardFromPGN (fen: String = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 0", pgn importedPGN: String) -> Board {
         
         let board = Board()
         let moveGenerator = MoveGenerator(board: board)

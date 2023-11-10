@@ -44,7 +44,7 @@ class ChanielsChessEngine {
         self.settings = settings
     }
     
-    private let openingBook = Bundle.main.url(forResource: "OpeningGames.pgn", withExtension: nil)!
+    private let openingBook = Bundle.main.url(forResource: "OpeningGames.pgn", withExtension: nil) ?? nil
     private var isInOpening = true
     
     func BestMove () -> Move? {
@@ -58,24 +58,24 @@ class ChanielsChessEngine {
             }
             else {
                 isInOpening = false
-                print("Didn't find position in opening book")
+                // print("Didn't find position in opening book")
             }
 
         }
         
         DoSearch()
-        print("Eval: \(Float(bestEval) / 50)")
+        // print("Eval: \(Float(bestEval) / 50)")
         
         guard bestMove != nil else {
             
             let moves = moveGenerator.AllLegalMoves()
             
             if moves.count == 0 {
-                print("Move generator didn't generate any legal moves.")
+                // print("Move generator didn't generate any legal moves.")
                 return nil
             }
             
-            print("Bug in the search engine. Using random move.")
+            // print("Bug in the search engine. Using random move.")
             return moves.randomElement()
         }
         
@@ -84,6 +84,7 @@ class ChanielsChessEngine {
     }
     
     func OpeningMove () -> Move? {
+        guard let openingBook = openingBook else { return nil }
         
         let parsedGames = PGNReader.parseCombinedPGN(openingBook)
         
@@ -110,8 +111,8 @@ class ChanielsChessEngine {
         
         let lineMoves = Board.BoardFromPGN(pgn: gameLine).state.moveHistory
         
-        print("Found opening")
-        print(gameLine)
+        // print("Found opening")
+        // print(gameLine)
         
         return Array(lineMoves)[board.state.moveHistory.count]
         
@@ -119,7 +120,7 @@ class ChanielsChessEngine {
     
     func DoSearch () {
         
-        print("~~~~~~~~~~~~~~~~~~~~~~")
+        // print("~~~~~~~~~~~~~~~~~~~~~~")
         
         cancelSearch = false
         nodes = 0
@@ -149,7 +150,7 @@ class ChanielsChessEngine {
                 Search(depth: depth, ply: 0, alpha: -mateScore, beta: mateScore)
                 
                 if cancelSearch {
-                    print("Depth accomplished: \(depth - 1)")
+                    // print("Depth accomplished: \(depth - 1)")
                     break
                 }
                 else {
@@ -178,7 +179,7 @@ class ChanielsChessEngine {
                 Search(depth: depth, ply: 0, alpha: -mateScore, beta: mateScore)
                 
                 if cancelSearch {
-                    print("Depth accomplished: \(depth - 1)")
+//                    // print("Depth accomplished: \(depth - 1)")
                     break
                 }
                 else {
@@ -193,15 +194,15 @@ class ChanielsChessEngine {
             
         }
         
-        print("Search \(bestEval)")
-        print("Nodes searched: \(nodes)")
-        print("Alpha/Beta prunes: \(prunes)")
-        print("Transpositions: \(transpositions)")
-        print("Quiescience increase: \(quiescienceDepthIncrease)")
-        print("Time taken: \(CFAbsoluteTimeGetCurrent() - start), NPS: \((Double(nodes + prunes + transpositions) / (CFAbsoluteTimeGetCurrent() - start)))")
-        if let bm = bestMove {
-            print(bm.description)
-        }
+//        // print("Search \(bestEval)")
+//        // print("Nodes searched: \(nodes)")
+//        // print("Alpha/Beta prunes: \(prunes)")
+//        // print("Transpositions: \(transpositions)")
+//        // print("Quiescience increase: \(quiescienceDepthIncrease)")
+//        // print("Time taken: \(CFAbsoluteTimeGetCurrent() - start), NPS: \((Double(nodes + prunes + transpositions) / (CFAbsoluteTimeGetCurrent() - start)))")
+//        if let bm = bestMove {
+//            // print(bm.description)
+//        }
         
     }
     

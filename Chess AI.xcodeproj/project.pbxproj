@@ -46,6 +46,35 @@
 		14ABAB9C269A35650096F735 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB9B269A35650096F735 /* Directions.swift */; };
 		14ABAB9E269A6E880096F735 /* MoveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB9D269A6E880096F735 /* MoveGenerator.swift */; };
 		14ABABA0269A6F360096F735 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB9F269A6F360096F735 /* Support.swift */; };
+		14CF46C12AFD97C800F2980A /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFEC26A28A7500C8D704 /* Piece.swift */; };
+		14CF46C22AFD97C800F2980A /* MoveSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFF226A72A2000C8D704 /* MoveSupport.swift */; };
+		14CF46C32AFD97C800F2980A /* MoveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB9D269A6E880096F735 /* MoveGenerator.swift */; };
+		14CF46C42AFD97C800F2980A /* RedesignedGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431AB0D26CEF1A70073456F /* RedesignedGenerator.swift */; };
+		14CF46C52AFD97C800F2980A /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFD7269A86C500C8D704 /* Move.swift */; };
+		14CF46C62AFD97C800F2980A /* FEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFD5269A7F2B00C8D704 /* FEN.swift */; };
+		14CF46C72AFD97C800F2980A /* PieceSquareTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431AB0F26D1591F0073456F /* PieceSquareTable.swift */; };
+		14CF46C82AFD97C800F2980A /* MoveOrdering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFE626A1FA4F00C8D704 /* MoveOrdering.swift */; };
+		14CF46C92AFD97C800F2980A /* Notation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493965226BDAD4D00F70883 /* Notation.swift */; };
+		14CF46CA2AFD97C800F2980A /* PGN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493965026BDA58000F70883 /* PGN.swift */; };
+		14CF46CB2AFD97C800F2980A /* Bitscanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFF026A3A5D000C8D704 /* Bitscanning.swift */; };
+		14CF46CC2AFD97C800F2980A /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB9F269A6F360096F735 /* Support.swift */; };
+		14CF46CD2AFD97C800F2980A /* BoardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFEE26A3701A00C8D704 /* BoardState.swift */; };
+		14CF46CE2AFD97C800F2980A /* MoveArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493964E26BB2CF400F70883 /* MoveArray.swift */; };
+		14CF46CF2AFD97C800F2980A /* SearchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142B68CD26D6A0DD00A465F7 /* SearchSettings.swift */; };
+		14CF46D02AFD97C800F2980A /* Perft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431AB1126D5FFCD0073456F /* Perft.swift */; };
+		14CF46D12AFD97C800F2980A /* Evaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431AAFF26CEB6C10073456F /* Evaluation.swift */; };
+		14CF46D22AFD97C800F2980A /* TranspositionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFDB269CF47300C8D704 /* TranspositionTable.swift */; };
+		14CF46D32AFD97C800F2980A /* Zobrist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFE126A0720C00C8D704 /* Zobrist.swift */; };
+		14CF46D42AFD97C800F2980A /* BoardRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF7C3826B7AA5F00C52A82 /* BoardRepresentation.swift */; };
+		14CF46D52AFD97C800F2980A /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB96269A28D10096F735 /* Board.swift */; };
+		14CF46D62AFD97C800F2980A /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFDF269E3B8000C8D704 /* Searching.swift */; };
+		14CF46D72AFD97C800F2980A /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BDFD9269CD23600C8D704 /* Position.swift */; };
+		14CF46D82AFD97C800F2980A /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ABAB9B269A35650096F735 /* Directions.swift */; };
+		14CF46DA2AFD97E300F2980A /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF46D92AFD97E300F2980A /* GameResult.swift */; };
+		14CF46DB2AFD97E300F2980A /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF46D92AFD97E300F2980A /* GameResult.swift */; };
+		14CF46DC2AFD97F100F2980A /* PGNReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493965426BDEE6E00F70883 /* PGNReader.swift */; };
+		14CF46DE2AFD98A700F2980A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF46DD2AFD98A700F2980A /* main.swift */; };
+		14CF46DF2AFD98A700F2980A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF46DD2AFD98A700F2980A /* main.swift */; };
 		14CF7C3126B7050100C52A82 /* SpinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF7C3026B7050100C52A82 /* SpinButton.swift */; };
 		14CF7C3326B7344200C52A82 /* ComputerPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF7C3226B7344200C52A82 /* ComputerPlayer.swift */; };
 		14CF7C3526B73A7600C52A82 /* HumanPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF7C3426B73A7600C52A82 /* HumanPlayer.swift */; };
@@ -68,6 +97,18 @@
 			remoteInfo = "Chess ML";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14CF46B82AFD97C000F2980A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		142B68CD26D6A0DD00A465F7 /* SearchSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSettings.swift; sourceTree = "<group>"; };
@@ -114,6 +155,9 @@
 		14ABAB9B269A35650096F735 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 		14ABAB9D269A6E880096F735 /* MoveGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveGenerator.swift; sourceTree = "<group>"; };
 		14ABAB9F269A6F360096F735 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		14CF46BA2AFD97C000F2980A /* UCI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UCI; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CF46D92AFD97E300F2980A /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		14CF46DD2AFD98A700F2980A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		14CF7C3026B7050100C52A82 /* SpinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinButton.swift; sourceTree = "<group>"; };
 		14CF7C3226B7344200C52A82 /* ComputerPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerPlayer.swift; sourceTree = "<group>"; };
 		14CF7C3426B73A7600C52A82 /* HumanPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanPlayer.swift; sourceTree = "<group>"; };
@@ -142,6 +186,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14CF46B72AFD97C000F2980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -164,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				14ABAB1A268F7F5E0096F735 /* Chess AI */,
+				14CF46BB2AFD97C000F2980A /* UCI */,
 				14ABAB19268F7F5E0096F735 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,6 +226,7 @@
 				14ABAB18268F7F5E0096F735 /* Chess AI.app */,
 				14ABAB2A268F7F630096F735 /* Chess AITests.xctest */,
 				14ABAB35268F7F630096F735 /* Chess AIUITests.xctest */,
+				14CF46BA2AFD97C000F2980A /* UCI */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,6 +261,7 @@
 				1493965D26BE565D00F70883 /* Colors.swift */,
 				1493965626BE186C00F70883 /* SwiftUI */,
 				14ABAB7E26991DE50096F735 /* GameManager.swift */,
+				14CF46D92AFD97E300F2980A /* GameResult.swift */,
 				148BDFDD269D051F00C8D704 /* BoardScene.swift */,
 				14ABAB7B2698F1F10096F735 /* Player */,
 			);
@@ -253,6 +307,14 @@
 				148BDFE126A0720C00C8D704 /* Zobrist.swift */,
 			);
 			path = "Negamax Engine";
+			sourceTree = "<group>";
+		};
+		14CF46BB2AFD97C000F2980A /* UCI */ = {
+			isa = PBXGroup;
+			children = (
+				14CF46DD2AFD98A700F2980A /* main.swift */,
+			);
+			path = UCI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,13 +373,30 @@
 			productReference = 14ABAB35268F7F630096F735 /* Chess AIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		14CF46B92AFD97C000F2980A /* UCI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CF46BE2AFD97C000F2980A /* Build configuration list for PBXNativeTarget "UCI" */;
+			buildPhases = (
+				14CF46B62AFD97C000F2980A /* Sources */,
+				14CF46B72AFD97C000F2980A /* Frameworks */,
+				14CF46B82AFD97C000F2980A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UCI;
+			productName = UCI;
+			productReference = 14CF46BA2AFD97C000F2980A /* UCI */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		14ABAB10268F7F5E0096F735 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					14ABAB17268F7F5E0096F735 = {
@@ -331,6 +410,9 @@
 					14ABAB34268F7F630096F735 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 14ABAB17268F7F5E0096F735;
+					};
+					14CF46B92AFD97C000F2980A = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
@@ -350,6 +432,7 @@
 				14ABAB17268F7F5E0096F735 /* Chess AI */,
 				14ABAB29268F7F630096F735 /* Chess AITests */,
 				14ABAB34268F7F630096F735 /* Chess AIUITests */,
+				14CF46B92AFD97C000F2980A /* UCI */,
 			);
 		};
 /* End PBXProject section */
@@ -394,6 +477,7 @@
 				148BDFE726A1FA4F00C8D704 /* MoveOrdering.swift in Sources */,
 				1493965526BDEE6F00F70883 /* PGNReader.swift in Sources */,
 				14ABABA0269A6F360096F735 /* Support.swift in Sources */,
+				14CF46DE2AFD98A700F2980A /* main.swift in Sources */,
 				14ABAB7D2698F2060096F735 /* Player.swift in Sources */,
 				14ABAB7F26991DE60096F735 /* GameManager.swift in Sources */,
 				148BDFDC269CF47300C8D704 /* TranspositionTable.swift in Sources */,
@@ -419,6 +503,7 @@
 				14ABAB1C268F7F5E0096F735 /* Chess_AIApp.swift in Sources */,
 				148BDFED26A28A7500C8D704 /* Piece.swift in Sources */,
 				1493965826BE201500F70883 /* TabButton.swift in Sources */,
+				14CF46DA2AFD97E300F2980A /* GameResult.swift in Sources */,
 				1493965E26BE565D00F70883 /* Colors.swift in Sources */,
 				1493965C26BE4DE200F70883 /* ImageAndLabelButton.swift in Sources */,
 				148BDFDE269D051F00C8D704 /* BoardScene.swift in Sources */,
@@ -440,6 +525,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CF46B62AFD97C000F2980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CF46CD2AFD97C800F2980A /* BoardState.swift in Sources */,
+				14CF46D42AFD97C800F2980A /* BoardRepresentation.swift in Sources */,
+				14CF46DB2AFD97E300F2980A /* GameResult.swift in Sources */,
+				14CF46C72AFD97C800F2980A /* PieceSquareTable.swift in Sources */,
+				14CF46CA2AFD97C800F2980A /* PGN.swift in Sources */,
+				14CF46D52AFD97C800F2980A /* Board.swift in Sources */,
+				14CF46C92AFD97C800F2980A /* Notation.swift in Sources */,
+				14CF46D02AFD97C800F2980A /* Perft.swift in Sources */,
+				14CF46C32AFD97C800F2980A /* MoveGenerator.swift in Sources */,
+				14CF46C42AFD97C800F2980A /* RedesignedGenerator.swift in Sources */,
+				14CF46CF2AFD97C800F2980A /* SearchSettings.swift in Sources */,
+				14CF46CE2AFD97C800F2980A /* MoveArray.swift in Sources */,
+				14CF46D12AFD97C800F2980A /* Evaluation.swift in Sources */,
+				14CF46D22AFD97C800F2980A /* TranspositionTable.swift in Sources */,
+				14CF46DC2AFD97F100F2980A /* PGNReader.swift in Sources */,
+				14CF46C82AFD97C800F2980A /* MoveOrdering.swift in Sources */,
+				14CF46D72AFD97C800F2980A /* Position.swift in Sources */,
+				14CF46C12AFD97C800F2980A /* Piece.swift in Sources */,
+				14CF46CB2AFD97C800F2980A /* Bitscanning.swift in Sources */,
+				14CF46CC2AFD97C800F2980A /* Support.swift in Sources */,
+				14CF46D62AFD97C800F2980A /* Searching.swift in Sources */,
+				14CF46DF2AFD98A700F2980A /* main.swift in Sources */,
+				14CF46C52AFD97C800F2980A /* Move.swift in Sources */,
+				14CF46D32AFD97C800F2980A /* Zobrist.swift in Sources */,
+				14CF46C62AFD97C800F2980A /* FEN.swift in Sources */,
+				14CF46C22AFD97C800F2980A /* MoveSupport.swift in Sources */,
+				14CF46D82AFD97C800F2980A /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,6 +842,32 @@
 			};
 			name = Release;
 		};
+		14CF46BF2AFD97C000F2980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		14CF46C02AFD97C000F2980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4ZMXMC2TC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -758,6 +903,15 @@
 			buildConfigurations = (
 				14ABAB45268F7F630096F735 /* Debug */,
 				14ABAB46268F7F630096F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		14CF46BE2AFD97C000F2980A /* Build configuration list for PBXNativeTarget "UCI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CF46BF2AFD97C000F2980A /* Debug */,
+				14CF46C02AFD97C000F2980A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

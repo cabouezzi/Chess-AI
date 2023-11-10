@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-enum GameResult {
-    case draw
-    case whiteWon
-    case blackWon
-}
-
 class GameManager {
     
     var board: Board

@@ -1,6 +1,7 @@
 # Chess-AI
-### Play it on [lichess.com](https://lichess.org/@/cabouezzi)
-A fixed-depth version of the engine by [forking the lichess-bot](https://github.com/cabouezzi/chess-ai-oracle) API. Runs in Oracle Cloud Infrastructure.
+### ~~Play it on [lichess.com](https://lichess.org/@/cabouezzi)~~
+~~A fixed-depth version of the engine by [forking the lichess-bot](https://github.com/cabouezzi/chess-ai-oracle) API. Runs in Oracle Cloud Infrastructure.~~
+
 ### Download the [macOS Preview](https://github.com/cabouezzi/Chess-AI/blob/main/Chess%20AI.zip?raw=true)
 ![](screenshot.png)
 _Research from [chessprogramming.org](https://www.chessprogramming.org/Main_Page)._ 

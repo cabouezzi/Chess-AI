@@ -7,6 +7,7 @@
 
 import Foundation
 import MetalPerformanceShaders
+internal import System
 
 class ChanielsChessEngine {
     
@@ -44,7 +45,7 @@ class ChanielsChessEngine {
         self.settings = settings
     }
     
-    private let openingBook = Bundle.main.url(forResource: "OpeningGames.pgn", withExtension: nil)!
+    private let openingBook = Bundle.main.url(forResource: "OpeningGames.pgn", withExtension: nil) ?? URL(filePath: "/Users/chanielezzi/Repositories/Chess-AI/Chess AI/OpeningGames.pgn")!
     private var isInOpening = true
     
     func BestMove () -> Move? {

@@ -9,7 +9,7 @@ import Foundation
 
 struct Move: Hashable {
     
-    private var value: ushort
+    var value: ushort
     
     enum Tag: UInt8 {
         

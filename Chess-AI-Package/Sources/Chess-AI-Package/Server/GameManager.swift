@@ -53,7 +53,7 @@ class GameManager {
     
     /// Apply a move (sent by client or AI). Move is UInt16 packed.
     func applyMove(_ move: Move) -> Bool {
-        guard isMoveLegal(move) else {
+        guard let move = findLegalMove(move) else {
             return false
         }
         
@@ -94,8 +94,8 @@ class GameManager {
     }
     
     /// Check if the move is legal
-    private func isMoveLegal(_ move: Move) -> Bool {
+    private func findLegalMove(_ move: Move) -> Move? {
         let legalMoves = moveGenerator.AllLegalMoves()
-        return legalMoves.contains(where: { $0.startIndex == move.startIndex && $0.targetIndex == move.targetIndex })
+        return legalMoves.first(where: { $0.startIndex == move.startIndex && $0.targetIndex == move.targetIndex })
     }
 }
